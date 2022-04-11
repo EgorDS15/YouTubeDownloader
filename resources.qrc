@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="youtubelogo">
+    <file>Youtube-logo-vector-PNG.png</file>
+  </qresource>
+</RCC>
