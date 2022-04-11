@@ -52,17 +52,3 @@ if __name__ == '__main__':
     window.show()
     app.exec_()
 
-# def one_video(link):
-#     # link=input('Insert the link: ')
-#     yt = pytube.YouTube(link)
-#
-#     stream = yt.streams.get_highest_resolution()
-#     stream.download()
-
-
-#
-# link = input('Insert the Playlist link: ')
-# p = Playlist(link)
-# print(f'Downloading: {p.title}')
-# for video in p.videos:
-#     video.streams.first().download()
