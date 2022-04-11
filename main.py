@@ -31,7 +31,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             p = Playlist(url)
             # print(f'Downloading: {p.title}')
             for video in p.videos:
-                video.streams.first().download()
 
                 video.streams. \
                     filter(type='video', progressive=True, file_extension='mp4'). \
@@ -51,4 +50,3 @@ if __name__ == '__main__':
     window = MainWindow()
     window.show()
     app.exec_()
-
